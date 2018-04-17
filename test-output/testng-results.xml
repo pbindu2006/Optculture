@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="9891" started-at="2018-04-10T15:27:47Z" finished-at="2018-04-10T15:27:57Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="9891" started-at="2018-04-10T15:27:47Z" finished-at="2018-04-10T15:27:57Z">
+      <class name="com.Selenium.BussinessScripts.GmailTest">
+        <test-method status="PASS" signature="openBrowser(java.lang.String)[pri:0, instance:com.Selenium.BussinessScripts.GmailTest@5f2108b5]" name="openBrowser" is-config="true" duration-ms="9874" started-at="2018-04-10T20:57:37Z" finished-at="2018-04-10T20:57:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="currentTestcase(java.lang.reflect.Method)[pri:0, instance:com.Selenium.BussinessScripts.GmailTest@5f2108b5]" name="currentTestcase" is-config="true" duration-ms="0" started-at="2018-04-10T20:57:47Z" finished-at="2018-04-10T20:57:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.Selenium.BussinessScripts.GmailTest.gmailLogin() throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- currentTestcase -->
+        <test-method status="PASS" signature="gmailLogin()[pri:0, instance:com.Selenium.BussinessScripts.GmailTest@5f2108b5]" name="gmailLogin" duration-ms="9838" started-at="2018-04-10T20:57:47Z" finished-at="2018-04-10T20:57:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gmailLogin -->
+        <test-method status="PASS" signature="Screenshot(org.testng.ITestResult)[pri:0, instance:com.Selenium.BussinessScripts.GmailTest@5f2108b5]" name="Screenshot" is-config="true" duration-ms="0" started-at="2018-04-10T20:57:57Z" finished-at="2018-04-10T20:57:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=gmailLogin status=SUCCESS method=GmailTest.gmailLogin()[pri:0, instance:com.Selenium.BussinessScripts.GmailTest@5f2108b5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Screenshot -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.Selenium.BussinessScripts.GmailTest@5f2108b5]" name="closeBrowser" is-config="true" duration-ms="24" started-at="2018-04-10T20:57:57Z" finished-at="2018-04-10T20:57:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.Selenium.BussinessScripts.GmailTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
